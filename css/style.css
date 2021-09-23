@@ -780,6 +780,14 @@ form .form-input input {
   padding: 1rem 0px;
   border-top: 1px solid;
 }
+.copyright{
+    color:000!important;
+    font-weight:600;
+    text-align:center"
+}
+.copyright p{
+    text-align: center;
+}
 
 footer {
   max-width: 1200px;
