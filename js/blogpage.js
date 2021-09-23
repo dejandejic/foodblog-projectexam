@@ -16,8 +16,8 @@ async function getPosts(url){
           <h4>${content}</h4>
        </div>`
      })
-    //var $gallery = new SimpleLightbox('.gallery a', {})
 }
+
 getPosts(baseUrl);
 
 
@@ -38,9 +38,7 @@ async function loadMore(url){
             <h4>${content}</h4>
          </div>`
      })
-    //$('.box-container').append(html);
     document.querySelector(".box-container").innerHTML += html
-    //var $gallery = new SimpleLightbox('.gallery a', {})
  }
 
 document.getElementById("load_more").addEventListener("click", loadMore);
